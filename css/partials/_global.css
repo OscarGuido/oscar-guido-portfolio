@@ -20,7 +20,7 @@
 }
 
 .button.primary-button{
-    background: var(--gradient-color);
+    background: var(--primary-color);
     background-clip: padding-box;
     color: whitesmoke;
     transition: background .6s ease;
@@ -53,7 +53,7 @@
 }
 
 .button.secondary-button:hover{
-    background: var(--gradient-color);
+    background: var(--primary-color);
     color: whitesmoke;
     box-shadow: var(--box-shadow);
 }
@@ -61,6 +61,11 @@
 p.para{
     color: var(--text-color);
     font: normal 500 16px/25px var(--roboto);
+    
+}
+
+p.bold{
+    font: normal 700 16px/25px var(--roboto);
 }
 
 .font-roboto{
@@ -80,6 +85,7 @@ button:hover
 .title-h1{
     font: normal bold 39px/40px var(--roboto);
 }
+
 
 .navbar_fixed{
     position: fixed;

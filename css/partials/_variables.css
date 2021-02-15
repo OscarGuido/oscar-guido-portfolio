@@ -9,7 +9,7 @@ html, body{
 
 /*css variables*/
 :root{
-    --primary-color: #4458dc;
+    --primary-color: #34013f;
     --primary-color2: #854fee;
     --title-color: #141313;
     --text-color: #777777;  
@@ -21,4 +21,5 @@ html, body{
 
     /* font family variables. */ 
     --roboto: 'Roboto', cursive;
+    --rock: myFont;
 }
