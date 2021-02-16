@@ -1,0 +1,11 @@
+
+/**/
+@font-face{
+    font-family: "Roboto";
+    src: '../fonts/Roboto/Roboto-Regular.ttf';
+}
+
+@font-face{
+    font-family: myFont;
+    src: url(../fonts/Rock_Salt/RockSalt-Regular.ttf);
+}

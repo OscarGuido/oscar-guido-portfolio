@@ -1,0 +1,475 @@
+<?php
+    $hola = 1;
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1 user-scalable=0" />
+    <title>Portfolio</title>
+
+    <!--Bootstrap css-->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+    <!--font awesome icons-->
+    <link rel="stylesheet" href="./css/all.min.css">
+
+    <!--Magnific Popup-->
+    <link rel="stylesheet" href="./vendor/magnific_popup/dist/magnific-popup.css">
+
+    <!--Owl Carousel css file-->
+    <link rel="stylesheet" href="./vendor/owl-carousel/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./vendor/owl-carousel/css/owl.theme.default.min.css">
+
+    <!-- mis estilos-->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!--Responsive-->
+    <link rel="stylesheet" href="./css/responsive.css">
+
+</head>
+<body>
+    
+
+    <!-- ================= Header ================== -->
+    <header class="header_area">
+        <div class="main-menu">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">Oscar Guido</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                    <div class="me-auto"></div>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#education">Education</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#experience">Experiencie</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#certifications">Certifications</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#hobbies">Hobbies</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>             
+                    </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- ================= /Header ================= -->
+    
+    <!-- ================= Main ================= -->
+    <main class="site-main">
+ 
+        <!-- ================= Banner Area ================= -->
+        <section class="site-banner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 site-title">
+                        <h3 class="title-text">Hi!</h3>
+                        <h1 class="title-text text-uppercase">I am Oscar</h1>
+                        <h4 class="title-text text-uppercase">Computer engineer intern</h4>
+                        <div class="site-buttons">
+                            <div class="d-flex flex-row flex-wrap">
+                                <a href="#contact" class="btn button primary-button mr-4 text-uppercase">
+                                    Contact me
+                                </a>
+                                <a href="#" class="btn button secondary-button text-uppercase">
+                                    Get CV
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 banner-image">
+                        <img src="./img/banner/banner.png" alt="banner-img" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ================= /Banner Area ================= -->
+        
+        
+        <!-- ================= Education Area ================= -->
+            <section class="education-area" id="education">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-12 education-image">
+                            <img src="./img/FIEscudo.png" alt="FIE" class="img-fluid">
+                        </div>
+                        <div class="col-lg-6 col-md-12 education-title">
+                            <h2 class="text-uppercase pt-5">
+                                <span>Education</span>
+                                
+                            </h2>
+                            <div class="paragraph py-4 w-75">
+                                <p class="para">
+                                    I studied Computer Engineering at Faculty of Electrical Engineering, UMSNH, in Morelia, Michoacan, Mexico from 2015 to 2020.    
+                                </p>
+                                <p class="para">
+                                    I started learning programming basics in C, POO in Java, shell-script Linux, logic and a lot of Math.
+                                    I also learned a lot about databases, data structure, computer networks and electronics.
+                                    In my last semesters I took subjects like artificial intelligence, computer vision, real-time programming and algorithm analysis.
+                                </p>
+                            </div>
+                            <button type="button" class="btn button primary-button text-uppercase">Download CV</button>
+                        </div>
+                    </div>
+                </div>
+            </section> 
+        <!-- ================= /Education Area ================= -->
+        
+
+        <!-- ================= Experience Area ================= -->
+        <section class="experience-area" id="experience">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-12">
+                        <div class="experience-title">
+                            <h1 class="text-uppercase title-h1">Experience</h1>
+                            <p class="para">
+                                I have experience developing backend with PHP, creating databases in both MySQL and SQL Server, developing front end with HTML, CSS, Javascript and Bootstrap. I also have experience developing mobile applications with Flutter and for a while I also developed them in Java using Android Studio.  
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container carousel py-lg-5">
+                <div class="owl-carousel owl-theme"> 
+                    <div class="client row">
+                        <div class="col-lg-3 col-md-12 client-img">
+                            <img src="./img/certifications/flutter.png" alt="img1" class="img-fluid">
+                        </div>
+                        <div class="col-lg-9 col-md-12 education-client">
+                            <h4 class="text-uppercase">Mobile developer</h4>
+                            <p class="para">
+                                Everhard Inmobiliaria. Internship
+                            </p>
+                            <p class="para">
+                                August, 2020 to January, 2021.
+                            </p>
+                            <p class="para">
+                                I was responsable for: 
+                                <ul>
+                                    <li class="activity">Creating MySQL databases.</li>
+                                    <li class="activity">Developing backend with PHP.</li>
+                                    <li class="activity">Developing Android apps using Android Studio and Java.</li>
+                                    <li class="activity">Developing multiplatform mobile applications with Flutter.</li>
+                                </ul> 
+                            </p>
+                        </div>
+                    </div>
+ 
+                    <div class="client row">
+                        <div class="col-lg-3 col-md-12 client-img">
+                            <img src="./img/FIEscudo.png" alt="img2" class="img-fluid">
+                        </div>
+                        <div class="col-lg-9 col-md-12 education-client">
+                            <h4 class="text-uppercase">Web developer</h4>
+                            <p class="para">
+                                Freelance.
+                            </p>
+                            <p class="para">
+                                August, 2020 to date.
+                            </p>
+                            <p class="para">
+                                As a freelancer I have worked on small projects such as:
+                                <ul>
+                                    <li class="activity">Static web page development with HTML, CSS and JS.</li>
+                                    <li class="activity">Frontend development with HTML, CSS, JS and Bootstrap.</li>
+                                    <li class="activity">Creating analytical applications with QlikSense and SQL Server.</li>
+                                </ul>                                  
+                            </p>
+                        </div>
+                    </div>                   
+                </div>
+            </div>
+        </section>
+        <!-- ================= /Experience Area ================= -->
+
+        <!-- ================= Certifications Area ================= -->
+        <section class="certifications-area" id="certifications">
+            <div class="container">
+                <div class="certifications-title pb-5">
+                    <h1 class="text-uppercase title-h1">Certifications</h1>
+                    <p class="para">
+                        I love learning new things, wich is why I keep taking courses on different platforms like Udemy.
+                        Right now I'm learning React. Below you will see a list of courses that I have finished.    
+                    </p>
+                </div>
+
+                <div class="button-group">
+                    <button type="button" class="active" id="btn1" data-filter="*">All</button>
+                    <button type="button" data-filter=".mobile">Mobile</button>
+                    <button type="button" data-filter=".network">Networks</button>
+                    <button type="button" data-filter=".programming">Programming</button>
+                    <!-- <button type="button" data-filter=".upcoming">Upcoming</button> -->
+                </div>
+
+                <div class="row grid">
+                    <div class="col-lg-4 col-md-6 col-sm-12 element-item mobile">
+                        <div class="our-certifications">
+                            <div class="img">
+                                <a class="test-popup-link" href="./img/certifications/flutter.png">
+                                    <img src="./img/certifications/flutter.png" alt="portfolio-1" class="img-fluid img-certificado">
+                                </a>
+                            </div>
+                            <div class="title py-4">
+                                <br>
+                                <p class="bold">Flutter: Your complete development guide for IOS and Android</p>
+                                <p class="para">Udemy. October, 2020</p>
+                                <p class="para"> <a target="blank" class="btn btn-success">View certification</a> </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 element-item programming">
+                        <div class="our-certifications">
+                            <div class="img">
+                                <a class="test-popup-link" href="./img/certifications/python.png">
+                                    <img src="./img/certifications/python.png" alt="portfolio-2" class="img-fluid img-certificado">
+                                </a>
+                            </div>
+                            <div class="title py-4">
+                                <br>
+                                <p class="bold">Python Programming</p>
+                                <p class="para">Faculty of Electrical Engineering UMSNH. June, 2019</p>
+                                <p class="para"> <a target="blank" class="btn btn-success">View certification</a> </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-4 col-md-6 col-sm-12 element-item network">
+                        <div class="our-certifications">
+                            <div class="img">
+                                <a class="test-popup-link" href="./img/certifications/ccna.jpeg">
+                                    <img src="./img/certifications/ccna.jpeg" alt="portfolio-3" class="img-fluid img-certificado">
+                                </a>
+                            </div>
+                            <div class="title py-4">
+                                <br>
+                                <p class="bold">CCNA Routing and Switching: Introduction to Networks</p>
+                                <p class="para">CISCO Networking Academy. February, 2019</p>
+                                <p class="para"> <a target="blank" class="btn btn-success">View certification</a> </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 element-item mobile">
+                        <div class="our-certifications">
+                            <div class="img">
+                                <a class="test-popup-link" href="./img/certifications/java.png">
+                                    <img src="./img/certifications/java.png" alt="portfolio-1" class="img-fluid img-certificado">
+                                </a>
+                            </div>
+                            <div class="title py-4">
+                                <br>
+                                <p class="bold">Android Application Development</p>
+                                <p class="para">Armaxing. October, 2017</p>
+                                <p class="para"> <a target="blank" class="btn btn-success">View certification</a> </p>
+                            </div>
+                        </div>
+                    </div>                    
+                </div>
+            </div>
+        </section>
+        <!-- ================= /Certifications Area ================= -->
+
+        <!-- ================= Projects Area ================= -->
+        <section class="projects-area" id="projects">
+            <div class="container">
+                <div class="projects-title pb-5">
+                    <h1 class="text-uppercase title-h1">Projects</h1>
+                </div>
+
+                <div class="button-group">
+                    <button type="button" class="active" id="btn1" data-filter="*">All</button>
+                    <button type="button" data-filter=".mobile">Mobile</button>
+                    <button type="button" data-filter=".web">Web</button>
+                </div>
+
+                <div class="row grid">
+                    <div class="col-lg-4 col-md-6 col-sm-12 element-item mobile">
+                        <div class="project">
+                            <div class="img">
+                                <a class="test-popup-link" href="./img/certifications/flutter.png">
+                                    <img src="./img/certifications/flutter.png" alt="portfolio-1" class="img-fluid img-project">
+                                </a>
+                            </div>
+                            <div class="title py-4">
+                                <p class="bold">News App with Flutter</p>
+                                <p class="para">App developed in Flutter thats shows the latest news using an API, BLoC Pattern and Providers</p>
+                                <p class="para">Flutter + NewsAPI</p>
+                                <p class="para"> 
+                                    <a target="blank" class="btn btn-success" href="https://github.com/OscarGuido/flutter-noticias">
+                                        View project
+                                    </a> 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-4 col-md-6 col-sm-12 element-item mobile">
+                        <div class="project">
+                            <div class="img">
+                                <a class="test-popup-link" href="./img/certifications/flutter.png">
+                                    <img src="./img/certifications/flutter.png" alt="portfolio-1" class="img-fluid img-project">
+                                </a>
+                            </div>
+                            <div class="title py-4">
+                                <p class="bold">Prodcuts App with Flutter</p>
+                                <p class="para">App developed in Flutter thats shows the latest news using an API, BLoC Pattern and Providers</p>
+                                <p class="para">Flutter + NewsAPI</p>
+                                <p class="para"> 
+                                    <a target="blank" class="btn btn-success" href="https://github.com/OscarGuido/flutter-noticias">
+                                        View project
+                                    </a> 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-4 col-md-6 col-sm-12 element-item web">
+                        <div class="project">
+                            <div class="img">
+                                <a class="test-popup-link" href="./img/certifications/flutter.png">
+                                    <img src="./img/projects/bootstrap.png  " alt="portfolio-1" class="img-fluid img-project">
+                                </a>
+                            </div>
+                            <div class="title py-4">
+                                <p class="bold">Personal Porfolio</p>
+                                <p class="para">Responsive portfolio developed using tools like Owl Carousel, Magnific Popup and Isotope</p>
+                                <p class="para">HTML / CSS / JS + Bootstrap</p>
+                                <p class="para"> 
+                                    <a target="blank" class="btn btn-success" href="#">
+                                        View project
+                                    </a> 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                                        
+                </div>
+            </div>
+        </section>
+        <!-- ================= /Projects Area ================= -->
+
+        <!-- ================= Hobbies Area ================= -->
+        <section class="hobbies-area" id="hobbies">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center hobbies-title">
+                        <h1 class="text-uppercase title-text">Hobbies</h1>
+                        <p class="para">
+                            Some things I love to do in my free times.
+                        </p>
+                    </div>
+                </div>
+                <div class="container hobbies-list">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="hobbies">
+                                <div class="hobbies-img text-center py-4">
+                                    <img src="./img/hobbies/chess4.png" alt="hobbies-1">
+                                </div>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title text-uppercase font-roboto">Chess</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="hobbies">
+                                <div class="hobbies-img text-center py-4">
+                                    <img src="./img/hobbies/basketball.png" alt="hobbies-1">
+                                </div>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title text-uppercase font-roboto">Basketball</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="hobbies">
+                                <div class="hobbies-img text-center py-4">
+                                    <img src="./img/hobbies/book.png" alt="hobbies-1">
+                                </div>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title text-uppercase font-roboto">Reading</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="hobbies">
+                                <div class="hobbies-img text-center py-4">
+                                    <img src="./img/hobbies/jogging.png" alt="hobbies-1">
+                                </div>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title text-uppercase font-roboto">Jogging</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ================= /Hobbies Area ================= -->
+        
+     </main>
+    <!-- ================= /Main ================= -->
+
+     <footer class="footer-area" id="contact">
+         <div class="container">
+             <div class="">
+                 <div class="site-logo text-center py-4">
+                    <h2 class="logo">Oscar Guido</h2>
+                 </div>
+                 <div class="social text-center">
+                     <h5 class="text-uppercase">Contact me</h5>
+                     <a href="https://mail.google.com/mail/u/0/?fs=1&to=oscar.guido.delgado@gmail.com&su=OFERTA_EMPLEO&body=Hola&tf=cm"><i class="fa fa-envelope"></i></a>
+                     <a href="tel:+524434480968"><i class="fa fa-phone-square"></i></a>
+                     <a href="https://www.linkedin.com/in/oscar-guido/"><i class="fab fa-linkedin"></i></a>
+                     <a href="https://github.com/OscarGuido/"><i class="fab fa-github"></i></a>
+                 </div>
+                 <div class="copyrights text-center">
+                     <p class="para">
+                        Copyright &copy; All rights reserved | This page was made by
+                        <a href="#"><span style="color: var(--primary-color);">Oscar Guido</span></a>
+                     </p>
+                 </div>
+             </div>
+         </div>
+     </footer>
+
+
+    <!--archivo JQuery-->
+    <script src="./js/jquery.3.5.1.js"></script>
+
+    <!--archivo js Bootstrap-->
+    <script src="./js/bootstrap.min.js"></script>
+
+     <!--isotope js library-->
+     <script src="./vendor/isotope/isotope.min.js"></script>
+
+     <!--Magnific popup script file-->
+     <script src="./vendor/magnific_popup/dist/jquery.magnific-popup.min.js"></script>
+
+     <!--owl Carousel Js File-->
+     <script src="./vendor/owl-carousel/js/owl.carousel.min.js"> </script>
+
+     <!--my js script-->
+     <script src="./js/main.js"></script>
+
+</body>
+</html>
