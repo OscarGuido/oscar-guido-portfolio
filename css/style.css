@@ -48,7 +48,7 @@ html, body{
    
 
     /* font family variables. */ 
-    --roboto: 'Roboto', cursive;
+    --roboto: 'Roboto', Roboto-Regular;
     --rock: myFont;
 }
 /*End import variables.css*/
