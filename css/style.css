@@ -15,7 +15,7 @@
 
 /*Start import fonts.css*/
 @font-face{
-    font-family: "Roboto";
+    font-family: myRoboto;
     src: '../fonts/Roboto/Roboto-Regular.ttf';
 }
 
@@ -48,7 +48,7 @@ html, body{
    
 
     /* font family variables. */ 
-    --roboto: 'Roboto', Roboto-Regular;
+    --roboto: myRoboto;
     --rock: myFont;
 }
 /*End import variables.css*/
