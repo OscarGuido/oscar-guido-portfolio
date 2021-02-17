@@ -32,7 +32,7 @@ $(document).ready(function(){
         });
         return false;
     })
-    $('.projects-area .button-group #btn1').trigger('click');
+    $('.projects-area .button-group #btn2').trigger('click');
     $('.projects-area .grid .test-popup-link').magnificPopup({
         type:'image',
         gallery:{enabled:true}

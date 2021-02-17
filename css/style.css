@@ -404,6 +404,10 @@ button:hover
     text-align: center;
 }
 
+.site-main .projects-area .grid .project> .title .para{
+    text-align: justify;
+}
+
 .site-main .projects-area .grid .project .img a .img-project{
     display: block;
     height: 10rem;
