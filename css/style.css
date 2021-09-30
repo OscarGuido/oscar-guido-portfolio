@@ -340,6 +340,7 @@ button:hover
 
 .site-main .certifications-area .grid .our-certifications> .title .para a{
     background-color: var(--primary-color);
+    border-color: var(--primary-color);
 }
 
 .site-main .certifications-area .grid .our-certifications> .title .para a:hover{
@@ -384,8 +385,8 @@ button:hover
 }
 
 .site-main .projects-area .grid .project> .title .para a{
-    background-color: var(--primary-color);
     border-color: var(--primary-color);
+    background-color: var(--primary-color);
 }
 
 .site-main .projects-area .grid .project> .title .para a:hover{
